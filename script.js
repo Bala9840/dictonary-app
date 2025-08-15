@@ -19,6 +19,9 @@ document.getElementById('searchBtn').addEventListener('click', async () => {
         <p><strong>Example:</strong> ${meaning.definitions[0].example || 'No example available'}</p>
       `).join('<br>');
   
+
+
+      
       resultDiv.innerHTML = `
         <h3>${data[0].word}</h3>
         ${meanings}
